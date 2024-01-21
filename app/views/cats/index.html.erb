@@ -9,6 +9,7 @@
       <%= link_to "Show this cat", cat %>
     </p>
   <% end %>
+  <%= paginate @cats %>
 </div>
 
 <%= link_to "New cat", new_cat_path %>
